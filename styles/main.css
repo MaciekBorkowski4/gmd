@@ -1,14 +1,40 @@
-.teaser {
-  background: url('../assets/images/background.jpg') no-repeat;
+body {
+  background: url('../assets/images/background.jpg') no-repeat fixed;
   background-size: cover;
+}
+.nav-bar {
+  background-color: rgba(72,72,72,0.7);
+  text-align: right;
+  padding: 1em 0;
+}
+
+.nav-bar li {
+  /*text-align: right;*/
+  display: inline;
+  font-size: 1.5em;
+  padding: 1.3em;
+}
+.nav-bar li a {
+  /*text-align: right;*/
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+.teaser {
+  background-color: rgba(0,0,0,0.2);
   height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.teaser h1 {
+.hello-text {
   color: white;
   font-size: 3em;
   text-align: center;
   font-weight: bolder;
   text-transform: uppercase;
-  padding-top: 25%;
+  /*padding-top: 25%;*/
 }
