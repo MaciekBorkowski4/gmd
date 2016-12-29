@@ -15,6 +15,7 @@ body {
     background-color: rgba(72, 72, 72, 0.8);
     padding: 1.5em 0;
     margin: 0;
+    z-index: 1;
 }
 
 .nav-bar li {
@@ -22,7 +23,7 @@ body {
     display: inline;
     vertical-align: middle;
     padding: 1.2em 4em;
-    transition: .2s ease-out;
+    /*transition: .2s ease-out;*/
 
 }
 
@@ -33,6 +34,7 @@ body {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .nav-bar li:hover {
@@ -61,6 +63,7 @@ body {
     border-top: solid white 0.05em;
     border-bottom: solid white 0.05em;
     background-color: rgba(64,64,64,0.5);
+    letter-spacing: 3px;
 }
 
 #main {
@@ -68,7 +71,7 @@ body {
     height: 100vh;
     max-width: 100%;
     margin-top: 0;
-    padding-top: 3em;
+    padding-top: 6em;
     /*padding-bottom: 5em;*/
 }
 .section-title {
@@ -80,7 +83,7 @@ body {
     padding: 10px;
     border-top: solid black 0.05em;
     border-bottom: solid black 0.05em;
-
+    letter-spacing: 2px;
 }
 
 .image {
@@ -97,4 +100,5 @@ body {
     font-size: 1.2em;
     font-weight: 590;
     padding: 0.5em 2em 0.5em;
+    line-height: 1.3;
 }
