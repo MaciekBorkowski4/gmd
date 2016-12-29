@@ -13,18 +13,22 @@ body {
     position: fixed;
     min-width: 100%;
     background-color: rgba(72, 72, 72, 0.8);
-    padding: 1.5em;
+    padding: 1.5em 0;
     margin: 0;
 }
 
 .nav-bar li {
     /*text-align: right;*/
     display: inline;
-    padding: 1.9em 4em;
+    vertical-align: middle;
+    padding: 1.2em 4em;
+    transition: .2s ease-out;
+
 }
 
 .nav-bar a li {
     /*text-align: right;*/
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.3em;
     text-decoration: none;
     color: white;
@@ -48,9 +52,10 @@ body {
 
 .hello-text {
     color: white;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 2.5em;
     text-align: center;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
     text-transform: uppercase;
     padding: 15px;
     border-top: solid white 0.05em;
@@ -61,13 +66,21 @@ body {
 #main {
     background: rgba(240,240,240,1);
     height: 100vh;
+    max-width: 100%;
     margin-top: 0;
     padding-top: 3em;
     /*padding-bottom: 5em;*/
 }
-#main h1 {
+.section-title {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2em;
     text-align: center;
-    padding-top: 1em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-top: solid black 0.05em;
+    border-bottom: solid black 0.05em;
+
 }
 
 .image {
@@ -80,7 +93,8 @@ body {
 }
 
 .main-text {
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 590;
     padding: 0.5em 2em 0.5em;
 }
