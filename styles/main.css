@@ -60,38 +60,22 @@ body {
 
 #main {
     background: rgba(240,240,240,1);
-    height: 89vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-.image1 {
-    background: url("../assets/images/family-company1.png");
-}
-
-.image2 {
-    background: url("../assets/images/box2.png");
-}
-.image3 {
-    background: url("../assets/images/high-quality3.png");
-}
-.image4 {
-    background: url("../assets/images/hard-working4.png");
-}
-.image5 {
-    background: url("../assets/images/transport5.png");
-}
-.main-image-container {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*text-align: center;*/
+.image {
     height: 9vh;
-    float: left;
-    margin-top: 1.3em;
-    margin-right: 0;
+}
+
+.main-image-container {
+    padding-top: 3.5em;
+    text-align: center;
 }
 
 .main-text {
     font-size: 1.2em;
     font-weight: 300;
-    padding: 4em 2em;
+    padding: 1em 2em 4em;
 }
