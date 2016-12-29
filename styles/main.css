@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: url('../assets/images/background.jpg') no-repeat fixed;
     background-size: cover;
@@ -36,7 +40,7 @@ body {
 .teaser {
     background-color: rgba(0, 0, 0, 0.27);
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,12 +60,8 @@ body {
 }
 
 #main {
-    display: flex;
     background: rgba(240,240,240,1);
     height: 89vh;
-    max-width: 100%;
-    float: left;
-    text-align: center;
 }
 
 .image1 {
@@ -84,9 +84,8 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    /*text-align: center;*/
     height: 9vh;
-    min-width: 33%;
     float: left;
     margin-top: 1.3em;
     margin-right: 0;
