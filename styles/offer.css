@@ -20,11 +20,10 @@
 /*}*/
 .offer-details li {
   padding-top: 0.6em;
-  list-style: square;
   padding-left: 10px;
 }
 
 .offer-details img {
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
 }
