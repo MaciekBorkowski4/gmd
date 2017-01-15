@@ -92,13 +92,24 @@ body {
     letter-spacing: 2px;
 }
 
-.image {
+.imageMain {
     height: 9vh;
+}
+.hiddenOverflow {
+    overflow: hidden;
 }
 
 .main-image-container {
     padding-top: 2.5em;
     text-align: center;
+    position: relative;
+    left: 1100px;
+
+}
+.in-view {
+    position: relative;
+    left: 0;
+    transition: 1.8s ease;
 }
 
 .main-text {
