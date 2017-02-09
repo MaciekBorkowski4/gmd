@@ -7,17 +7,7 @@
 #offer p {
   padding: 0.2em 0;
 }
-/*#offer p:last-child {*/
-  /*padding-top: 0.8em;*/
-/*}*/
-/*.offer-details p {*/
-  /*text-align: center;*/
-/*}*/
-/*.offer-details ul {*/
-  /*list-style-image: url('../assets/images/box-list-item.png');*/
-  /*height: 10px;*/
-  /*width: 10px;*/
-/*}*/
+
 .offer-details li {
   padding-top: 0.6em;
   padding-left: 10px;
@@ -26,4 +16,13 @@
 .offer-details img {
   height: 15px;
   width: 15px;
+}
+
+.offer-last-info {
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
 }
