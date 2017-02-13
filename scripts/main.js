@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var $featurePhotos = $('.main-image-container');
+    var $featurePhotos = $('.slideInElements');
     var $window = $(window);
     $window.on('scroll load', check_if_in_view);
 
@@ -23,24 +23,5 @@ $(document).ready(function () {
             }
         });
     }
-    
-    // const mainImages = document.querySelectorAll('.main-image-container');
-    //
-    // function slideIn () {
-    //     mainImages.forEach(mainImage => {
-    //         const inView = (window.scrollY + window.innerHeight) - mainImage.height /2;
-    //         const imageBottom = mainImage.offsetTop + mainImage.height;
-    //         const halfShown = inView > mainImage.offsetTop;
-    //         const notPassed = window.scrollY < imageBottom;
-    //         if (halfShown && notPassed) {
-    //             mainImage.classList.add('in-view');
-    //         } else {
-    //             mainImage.classList.remove('in-view');
-    //         }
-    //     })
-    // }
-    // window.addEventListener('scroll', slideIn)
-    
-    
 });
 

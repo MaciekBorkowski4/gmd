@@ -1,6 +1,32 @@
 #contact {
     height: 100vh;
     padding-top: 6em;
-    background: rgba(240,240,240,0.7);
+    background: rgba(240,240,240,0.8);
     color: whitesmoke;
+}
+
+.contact-row {
+    text-align: center;
+    color: #333;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    margin: 15px;
+}
+.contact-headers {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.3em;
+}
+.contact-header-companyName {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+.contact-element {
+    position: relative;
+    right: 1100px;
+}
+.in-view2 {
+    position: relative;
+    right: 0;
+    transition: 1.8s ease;
 }
