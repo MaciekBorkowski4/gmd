@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var $featurePhotos = $('.slideInElements');
     var $window = $(window);
-    $window.on('scroll load', check_if_in_view);
+    $window.on('scroll', check_if_in_view);
 
     function check_if_in_view() {
         var windowHeight = $window.height();
@@ -19,9 +19,13 @@ $(document).ready(function () {
                 (elementTopPosition <= windowBottomPosition)) {
                 $element.addClass('in-view');
             } else {
-                // $element.removeClass('in-view');
+                $element.removeClass('in-view');
             }
         });
     }
+
+
+
+
 });
 

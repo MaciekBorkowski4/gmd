@@ -2,12 +2,12 @@
 $(document).ready(function () {
     var $contactElements = $('.contact-element');
     var $windowContact = $(window);
-    $windowContact.on('scroll load', check_if_in_view2);
+    $windowContact.on('scroll', check_if_in_view2);
 
     function check_if_in_view2() {
-        var windowHeight = $windowContact.height();
-        var windowTopPosition = $windowContact.scrollTop();
-        var windowBottomPosition = (windowTopPosition + windowHeight);
+        var windowContactHeight = $windowContact.height();
+        var windowContactTopPosition = $windowContact.scrollTop();
+        var windowContactBottomPosition = (windowContactTopPosition + windowContactHeight);
 
         $.each($contactElements, function () {
             var $elementC = $(this);
@@ -16,11 +16,11 @@ $(document).ready(function () {
             var elementCBottomPosition = (elementCTopPosition + elementCHeight);
 
 //check to see if this current container is within viewport*/
-            if ((elementCBottomPosition >= windowTopPosition) &&
-                (elementCTopPosition <= windowBottomPosition)) {
+            if ((elementCBottomPosition >= windowContactTopPosition) &&
+                (elementCTopPosition <= windowContactBottomPosition)) {
                 $elementC.addClass('in-view2');
             } else {
-                // $element.removeClass('in-view');
+                // $elementC.removeClass('in-view2');
             }
         });
     }
